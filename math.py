@@ -5,7 +5,7 @@ def subtract(x, y):
 	pass
 
 def divide(x, y):
-	pass
+	return x/y if y != 0 else "Division by zero."
 
 def multiply(x, y):
 	return x * y
