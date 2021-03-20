@@ -15,7 +15,7 @@ class TestCalc(unittest.TestCase):
         print(cls.INFO + "Initializing variables." + cls.STOP)
     
     @classmethod
-    def setUpClass(cls):
+    def tearDownClass(cls):
         """"""
         print(cls.INFO + "Cleaning up" + cls.STOP)
 
