@@ -12,12 +12,12 @@ class TestCalc(unittest.TestCase):
         cls.INFO = '\x1b[6;30;43m'
         cls.STOP = '\x1b[0m'
 
-        print(self.INFO + "Initializing variables." + self.STOP)
+        print(cls.INFO + "Initializing variables." + cls.STOP)
     
     @classmethod
     def setUpClass(cls):
         """"""
-        print(self.INFO + "Cleaning up" + self.STOP)
+        print(cls.INFO + "Cleaning up" + cls.STOP)
 
     def test_add(self):
         """Test the add function.."""
